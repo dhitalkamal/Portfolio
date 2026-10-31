@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import avatar from '../assets/avatar.webp'
 
 const Hero = () => {
   return (
@@ -88,8 +89,13 @@ const Hero = () => {
           >
             <div className="relative">
               <div className="w-96 h-96 lg:w-[28rem] lg:h-[28rem] rounded-2xl bg-gray-900 border border-gray-800 flex items-center justify-center overflow-hidden">
-                {/* Placeholder for photo - replace with actual image */}
-                <div className="text-8xl opacity-30">👨‍💻</div>
+                <img
+                  src={avatar}
+                  alt="Illustrated portrait of Kamal Dhital"
+                  width={896}
+                  height={896}
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               {/* Decorative elements */}

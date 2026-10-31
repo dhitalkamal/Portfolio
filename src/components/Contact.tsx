@@ -87,12 +87,12 @@ const Contact = () => {
                     <div>
                       <div className="text-xs font-mono text-gray-500 tracking-wider uppercase mb-1">LinkedIn</div>
                       <a 
-                        href="https://linkedin.com/in/kamaldhitalofficial"
+                        href="https://linkedin.com/in/kamaldhital"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-300 transition-colors"
                       >
-                        linkedin.com/in/kamaldhitalofficial
+                        linkedin.com/in/kamaldhital
                       </a>
                     </div>
                   </div>

@@ -24,7 +24,7 @@ function App() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 2 }}
       >
-        <a href="https://github.com/kamaldhitalofficial" className="text-gray-400 hover:text-primary-500 transition-colors">
+        <a href="https://github.com/dhitalkamal" className="text-gray-400 hover:text-primary-500 transition-colors">
           <Github size={20} />
         </a>
         <a href="https://www.linkedin.com/in/kamaldhital" className="text-gray-400 hover:text-primary-500 transition-colors">

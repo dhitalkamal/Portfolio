@@ -34,57 +34,59 @@ const Projects = () => {
 
   const featuredProjects = [
     {
-      title: "Task Management System",
-      description: "Full-stack task management application with real-time updates and collaboration features.",
+      title: "Driftwall",
+      description: "Free, open-source live video wallpaper for macOS. Plays any video behind your desktop icons on every display, with playlists and pause on battery or fullscreen.",
       tech: [
-        { name: "Django", icon: "logos:django-icon" },
-        { name: "React", icon: "logos:react" },
-        { name: "PostgreSQL", icon: "logos:postgresql" },
-        { name: "WebSocket", icon: "simple-icons:socketdotio" }
+        { name: "Swift", icon: "logos:swift" },
+        { name: "macOS", icon: "simple-icons:apple" },
+        { name: "AVFoundation", icon: "simple-icons:apple" },
+        { name: "Homebrew", icon: "simple-icons:homebrew" }
       ],
-      github: "https://github.com/kamaldhitalofficial/task-manager",
-      live: null,
-      year: "2024"
+      github: "https://github.com/dhitalkamal/driftwall",
+      live: "https://github.com/dhitalkamal/driftwall/releases/latest",
+      year: "2026"
     },
     {
-      title: "Weather App",
-      description: "Cross-platform weather application using Flutter with location-based forecasts.",
+      title: "parley",
+      description: "Terminal API client: collections, environments, auth with token refresh, Postman-compatible scripting, imports, and WebSocket testing in a keyboard-driven TUI.",
       tech: [
-        { name: "Flutter", icon: "logos:flutter" },
-        { name: "Dart", icon: "logos:dart" },
-        { name: "REST API", icon: "simple-icons:fastapi" },
-        { name: "Material Design", icon: "logos:material-ui" }
+        { name: "Go", icon: "logos:go" },
+        { name: "Bubble Tea", icon: "simple-icons:go" },
+        { name: "JavaScript", icon: "logos:javascript" },
+        { name: "OpenAPI", icon: "simple-icons:openapiinitiative" }
       ],
-      github: "https://github.com/kamaldhitalofficial/weather-app",
+      github: "https://github.com/dhitalkamal/parley",
       live: null,
-      year: "2024"
+      year: "2026"
     },
     {
-      title: "Chess Game AI",
-      description: "Chess implementation with AI opponent using minimax algorithm and different difficulty levels.",
+      title: "mdo",
+      description: "Render Markdown in the terminal and step through its code blocks, vetting each one before it runs. Clipboard works over SSH, and AI agents can drive it over MCP.",
       tech: [
-        { name: "Python", icon: "logos:python" },
-        { name: "Pygame", icon: "simple-icons:pygame" },
-        { name: "AI Algorithms", icon: "simple-icons:tensorflow" }
+        { name: "Go", icon: "logos:go" },
+        { name: "Markdown", icon: "simple-icons:markdown" },
+        { name: "MCP", icon: "simple-icons:anthropic" },
+        { name: "Linux", icon: "logos:linux-tux" }
       ],
-      github: "https://github.com/kamaldhitalofficial/chess-ai",
+      github: "https://github.com/dhitalkamal/mdo",
       live: null,
-      year: "2023"
+      year: "2026"
     },
     {
-      title: "DevOps Learning Lab",
-      description: "Collection of DevOps practice projects with Docker containers and CI/CD pipelines.",
+      title: "Arch Linux + Hyprland",
+      description: "One-script bootstrap for my Arch desktop: bar, launcher, control center, lock screen, and colors that follow the wallpaper.",
       tech: [
-        { name: "Docker", icon: "logos:docker-icon" },
-        { name: "GitHub Actions", icon: "logos:github-actions" },
-        { name: "AWS", icon: "logos:aws" },
-        { name: "Shell Scripts", icon: "simple-icons:gnubash" }
+        { name: "Arch Linux", icon: "logos:archlinux" },
+        { name: "Shell", icon: "simple-icons:gnubash" },
+        { name: "QML", icon: "logos:qt" },
+        { name: "Lua", icon: "logos:lua" }
       ],
-      github: "https://github.com/kamaldhitalofficial/devops-lab",
+      github: "https://github.com/dhitalkamal/archlinux-hyprland",
       live: null,
-      year: "2023"
+      year: "2026"
     }
   ]
+
 
   const getStatusStyles = (statusColor: string) => {
     const styles: Record<string, any> = {
@@ -305,7 +307,7 @@ const Projects = () => {
               variants={itemVariants}
             >
               <a
-                href="https://github.com/kamaldhitalofficial"
+                href="https://github.com/dhitalkamal"
                 className="text-gray-500 hover:text-white transition-colors font-mono text-sm tracking-wider uppercase border-b border-gray-600 hover:border-white pb-1"
                 target="_blank"
                 rel="noopener noreferrer"
